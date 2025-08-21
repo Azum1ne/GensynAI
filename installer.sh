@@ -1,8 +1,6 @@
 #!/bin/bash
 set -e
 
-echo "=== Gensyn Node Auto Installer ==="
-
 # 1. Update & upgrade
 echo "[1/10] Updating system..."
 apt update 
