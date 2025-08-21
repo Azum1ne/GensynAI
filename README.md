@@ -107,7 +107,7 @@ screen -r swarm
 * To run Gswarm, you need `EOA Address` you can find it on Dashboard.
 * in the current version,you will get 3 participations, every 3 hours.
 * So if you don’t get any updates from Telegram after more than 3 hours, you should check your node.
-**If there’s an update later**
+* **If there’s an update later**
 ```bash
 screen -r swarm
 ```
