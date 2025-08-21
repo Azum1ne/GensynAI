@@ -21,7 +21,7 @@ It is optimized for **RTX 3090/4090** instances.
 ```bash
    --shm-size=16g --ulimit nofile=1048576:1048576 --ulimit nproc=65535:65535 --ulimit memlock=-1 --ulimit stack=67108864
 ```
-<img width="2256" height="1002" alt="Screenshot 2025-08-21 092924" src="https://github.com/user-attachments/assets/6697c0b4-d29a-4add-bf54-5c071a8ff5b1" />
+<img width="600" height="1002" alt="Screenshot 2025-08-21 092924" src="https://github.com/user-attachments/assets/6697c0b4-d29a-4add-bf54-5c071a8ff5b1" />
  * Save the template.
  * Select the GPU you want to rent using the edited template.
  * Set your disk space to **50GB**
