@@ -91,8 +91,8 @@ screen -r swarm
 ```
 ## 5. Prompts During Setup
 # You may see prompts like:
-**`Would you like to push models you train in the RL swarm to the Hugging Face Hub? [y/N] : (PRESS N)`**
-**`Enter the name of the model you want to use in huggingface repo/name format, or press [Enter] to use the default model. : (Press Enter)`**
+`**Would you like to push models you train in the RL swarm to the Hugging Face Hub? [y/N] : (PRESS N)**`
+`**Enter the name of the model you want to use in huggingface repo/name format, or press [Enter] to use the default model. : (Press Enter)**`
 * press N for HuggingFace and Press Enter to use the default model.
 * Make sure your node is running properly.
 <img width="1000" height="700" alt="image" src="https://github.com/user-attachments/assets/1d85776b-557c-49fb-b6b9-5cb124550a4b" />
