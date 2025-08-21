@@ -103,9 +103,9 @@ screen -r swarm
 * and claim your **GSWARM** Role by join [discord](https://discord.gg/gensyn)
 
 ## NOTES 
-* To run GSwarm, you need an EOA address.
-* Find your EOA address by logging into the Gensyn [dashboard](dashboard.gensyn.ai).
-* Every 3 hours, you will get 3 participations.
+* Official Dashboard [dashboard](dashboard.gensyn.ai), login to check your node peer id, EOA Address. 
+* To run Gswarm, you need `EOA Address` you can find it on Dashboard.
+* in the current version,you will get 3 participations, every 3 hours.
 * So if you don’t get any updates from Telegram after more than 3 hours, you should check your node.
 **If there’s an update later**
 ```bash
