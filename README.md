@@ -12,7 +12,7 @@ It is optimized for **RTX 3090/4090** instances.
   * Go to **Templates**.
   * Search for **"Jupyter Lab CUDA 12.6"**.
 (This template makes it easy to back up your `swarm.pem` file or import your old one if you have run Gensyn before.)
- Clone the template 
+  * Clone the template 
 
 <img width="600" height="792" alt="Screenshot 2025-08-21 092727" src="https://github.com/user-attachments/assets/8a500c13-9d47-4267-bf45-47b36c3e4fd8" />
 
@@ -24,7 +24,7 @@ It is optimized for **RTX 3090/4090** instances.
 <img width="600" height="1002" alt="Screenshot 2025-08-21 092924" src="https://github.com/user-attachments/assets/6697c0b4-d29a-4add-bf54-5c071a8ff5b1" />
 
 * Save the template.
-* Select the GPU you want to rent using the edited template.
+* Select the GPU RTX 3090/4090 using the edited template.
 * Set your disk space to **50GB**
 * Create the Pod.
 * Go to **Pods**, wait until it finishes deploying, then click Connect.
