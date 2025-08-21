@@ -1,7 +1,7 @@
 <img width="2476" height="898" alt="Gensyn" src="https://github.com/user-attachments/assets/bb7a4d89-fdc6-42ca-ae40-4a71996a563f" />
 
-Official Docs [Gensyn](https://github.com/gensyn-ai/rl-swarm)
-If you want to run with CPU Only , use this guide [0xmoei](https://github.com/0xmoei/gensyn-ai)
+* Official Docs [Gensyn](https://github.com/gensyn-ai/rl-swarm)
+* If you want to run with CPU Only , use this guide [0xmoei](https://github.com/0xmoei/gensyn-ai)
 
 # Simple Guide to Run Gensyn RL-SWARM Testnet Node on Quickpod (RTX 3090/4090)
 This guide explains how to quickly run a **Gensyn RL-SWARM testnet node** using a rented GPU cloud instance from [Quickpod.io](https://quickpod.io).  
