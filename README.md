@@ -3,9 +3,9 @@
 * Official Docs [Gensyn](https://github.com/gensyn-ai/rl-swarm)
 * If you want to run with CPU Only , use this guide [0xmoei](https://github.com/0xmoei/gensyn-ai)
 
-# Simple Guide to Run Gensyn RL-SWARM Testnet Node on Quickpod (RTX 3090/4090)
+# Simple Guide to Run Gensyn RL-SWARM Testnet Node on Quickpod (RTX 3090)
 This guide explains how to quickly run a **Gensyn RL-SWARM testnet node** using a rented GPU cloud instance from [Quickpod.io](https://quickpod.io).  
-It is optimized for **RTX 3090/4090** instances.
+It is optimized for **RTX 3090** instances.
 
 ## 1. Prepare Your Quickpod Environment
  Sign up or log in at [Quickpod.io](https://quickpod.io).
@@ -17,14 +17,9 @@ It is optimized for **RTX 3090/4090** instances.
 <img width="600" height="792" alt="Screenshot 2025-08-21 092727" src="https://github.com/user-attachments/assets/8a500c13-9d47-4267-bf45-47b36c3e4fd8" />
 
  * and add the following options under **Docker Options**
-
-```bash
-   --shm-size=16g --ulimit nofile=1048576:1048576 --ulimit nproc=65535:65535 --ulimit memlock=-1 --ulimit stack=67108864
-```
-<img width="600" height="1002" alt="Screenshot 2025-08-21 092924" src="https://github.com/user-attachments/assets/6697c0b4-d29a-4add-bf54-5c071a8ff5b1" />
-
+`--shm-size=16g` or `--shm-size=24g`
 * Save the template.
-* Select the GPU RTX 3090/4090 using the edited template.
+* Select the GPU RTX 3090 using the edited template.
 * Set your disk space to **50GB**
 * Create the Pod.
 * Go to **Pods**, wait until it finishes deploying, then click Connect.
