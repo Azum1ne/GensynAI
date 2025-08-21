@@ -47,7 +47,7 @@ chmod +x installer.sh
    * Connect to Jupyter Lab.
    * Drag & drop your old **swarm.pem** into the **rl-swarm** directory.
 
-##3. Run RL-SWARM in a Screen Session
+## 3. Run RL-SWARM in a Screen Session
 ```bash
 screen -S swarm
 ```
@@ -81,9 +81,9 @@ cloudflared tunnel --url http://localhost:3000
 screen -r swarm
 ```
 ## 5. Prompts During Setup
-*You may see prompts like:
- * **Would you like to push models you train in the RL swarm to the Hugging Face Hub? [y/N] : (PRESS N)**
- * **Enter the name of the model you want to use in huggingface repo/name format, or press [Enter] to use the default model. : (Press Enter)**
+* You may see prompts like:
+ * **`Would you like to push models you train in the RL swarm to the Hugging Face Hub? [y/N] : (PRESS N)`**
+ * **`Enter the name of the model you want to use in huggingface repo/name format, or press [Enter] to use the default model. : (Press Enter)`**
 * Just press N for HuggingFace and Enter to use the default model.
 Make sure your node is running properly.
 <img width="2340" height="218" alt="Screenshot 2025-08-21 093615" src="https://github.com/user-attachments/assets/221b69dd-8d45-494b-99b9-3fdf29c4c9f3" />
