@@ -17,7 +17,7 @@ apt install python3 python3-pip python3-venv python3-dev -y
 
 # 4. Install Node.js & Yarn
 echo "[4/10] Installing Node.js 22 & Yarn..."
- apt update
+apt update
 curl -fsSL https://deb.nodesource.com/setup_22.x | bash -
 apt install -y nodejs
 node -v
