@@ -29,12 +29,7 @@ yarn -v
 curl -o- -L https://yarnpkg.com/install.sh | bash
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
-# 6. Python libs (transformers & trl specific version)
-echo "[6/10] Installing Python libs..."
-pip install --force-reinstall transformers==4.51.3 trl==0.19.1
-pip freeze
-
-# 7. Install Cloudflared tunnel
+# 6. Install Cloudflared tunnel
 echo "[7/10] Installing Cloudflared Tunnel..."
 if ! command -v cloudflared &> /dev/null
 then
@@ -44,7 +39,7 @@ then
 fi
 cloudflared --version
 
-# 8. Clone repo gensyn
+# 7. Clone repo gensyn
 echo "[8/10] Cloning Gensyn rl-swarm repo..."
 if [ ! -d "rl-swarm" ]; then
   git clone https://github.com/gensyn-ai/rl-swarm.git
