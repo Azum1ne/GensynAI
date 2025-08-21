@@ -28,7 +28,7 @@ It is optimized for **RTX 3090/4090** instances.
 * Set your disk space to **50GB**
 * Create the Pod.
 * Go to **Pods**, wait until it finishes deploying, then click Connect.
-You can connect either via **Web Terminal** or **SSH command** (just copy & paste).
+You can connect either via **Web Terminal** or **SSH command** (just copy & paste to your terminal).
 
 ## 2. Download and Run the Installer
 ```bash
