@@ -107,6 +107,16 @@ screen -r swarm
 * Find your EOA address by logging into the Gensyn [dashboard](dashboard.gensyn.ai).
 * Every 3 hours, you will get 3 participations.
 * So if you don’t get any updates from Telegram after more than 3 hours, you should check your node.
+**If there’s an update later**
+```bash
+screen -r swarm
+```
+* Stop your node using `CTRL+C`
+```bash
+git pull
+```
+* then re-run your node
+
 
 
 
