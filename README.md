@@ -95,7 +95,8 @@ screen -r swarm
 **`Enter the name of the model you want to use in huggingface repo/name format, or press [Enter] to use the default model. : (Press Enter)`**
 * press N for HuggingFace and Press Enter to use the default model.
 Make sure your node is running properly.
-<img width="2340" height="218" alt="Screenshot 2025-08-21 093615" src="https://github.com/user-attachments/assets/221b69dd-8d45-494b-99b9-3fdf29c4c9f3" />
+<img width="1000" height="700" alt="image" src="https://github.com/user-attachments/assets/1d85776b-557c-49fb-b6b9-5cb124550a4b" />
+
 
 ## 6. GSWARM TELEGRAM BOT
 * You can monitor your node by running the GSwarm Telegram bot. [Gswarm](https://gswarm.dev/docs)
