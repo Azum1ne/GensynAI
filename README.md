@@ -22,11 +22,11 @@ It is optimized for **RTX 3090/4090** instances.
    --shm-size=16g --ulimit nofile=1048576:1048576 --ulimit nproc=65535:65535 --ulimit memlock=-1 --ulimit stack=67108864
 ```
 <img width="2256" height="1002" alt="Screenshot 2025-08-21 092924" src="https://github.com/user-attachments/assets/6697c0b4-d29a-4add-bf54-5c071a8ff5b1" />
-*Save the template.
-*Select the GPU you want to rent using the edited template.
-*Set your disk space to **50GB**
-*Create the Pod.
-*Go to **Pods**, wait until it finishes deploying, then click Connect.
+ * Save the template.
+ * Select the GPU you want to rent using the edited template.
+ * Set your disk space to **50GB**
+ * Create the Pod.
+ * Go to **Pods**, wait until it finishes deploying, then click Connect.
 You can connect either via **Web Terminal** or **SSH command** (just copy & paste).
 
 ## 2. Download and Run the Installer
@@ -39,12 +39,12 @@ chmod +x installer.sh
 ```bash
 ./installer.sh
 ```
-*Wait until the installation finishes.
+ * Wait until the installation finishes.
 
-*If you are running a new node, you can only back up your swarm.pem file once the node is running by connecting to Jupyter Lab and locating your swarm.pem file in the **rl-swarm** directory.
-*If you already have an old swarm.pem file:
- *Connect to Jupyter Lab.
- *Drag & drop your old **swarm.pem** into the **rl-swarm** directory.
+ * If you are running a new node, you can only back up your swarm.pem file once the node is running by connecting to Jupyter Lab and locating your swarm.pem file in the **rl-swarm** directory.
+ * If you already have an old swarm.pem file:
+  * Connect to Jupyter Lab.
+  * Drag & drop your old **swarm.pem** into the **rl-swarm** directory.
 
 ##3. Run RL-SWARM in a Screen Session
 ```bash
@@ -63,18 +63,18 @@ python3 -m venv .venv
 ./run_rl_swarm.sh
 ```
 
-*Wait until you are prompted to log in.
+ * Wait until you are prompted to log in.
 
 ## 4. Login with Cloudflared Tunnel
-*Detach from screen with **CTRL A + D**, then run:
+* Detach from screen with **CTRL A + D**, then run:
 ```bash
 cloudflared tunnel --url http://localhost:3000
 ```
-*You will see a URL like: **https://xxx.xxxx.xxxxx.trycloudflare.com**
-*Copy & paste the URL into your browser.
-*Login using your email.
-*Once logged in, press **CTRL+C** to stop cloudflared.
-*Re-attach to your screen session:
+* You will see a URL like: **https://xxx.xxxx.xxxxx.trycloudflare.com**
+* Copy & paste the URL into your browser.
+* Login using your email.
+* Once logged in, press **CTRL+C** to stop cloudflared.
+* Re-attach to your screen session:
 
 ```bash
 screen -r swarm
@@ -83,7 +83,7 @@ screen -r swarm
 *You may see prompts like:
  * **Would you like to push models you train in the RL swarm to the Hugging Face Hub? [y/N] : (PRESS N)**
  * **Enter the name of the model you want to use in huggingface repo/name format, or press [Enter] to use the default model. : (Press Enter)**
-*Just press N for HuggingFace and Enter to use the default model.
+* Just press N for HuggingFace and Enter to use the default model.
 Make sure your node is running properly.
 <img width="2340" height="218" alt="Screenshot 2025-08-21 093615" src="https://github.com/user-attachments/assets/221b69dd-8d45-494b-99b9-3fdf29c4c9f3" />
 
