@@ -89,14 +89,14 @@ Make sure your node is running properly.
 <img width="2340" height="218" alt="Screenshot 2025-08-21 093615" src="https://github.com/user-attachments/assets/221b69dd-8d45-494b-99b9-3fdf29c4c9f3" />
 
 ## 6. GSWARM TELEGRAM BOT
-You can monitor your node by running the GSwarm Telegram bot. [Gswarm](https://gswarm.dev/docs)
-and claim your **GSWARM** Role by join [discord](https://discord.gg/gensyn)
+* You can monitor your node by running the GSwarm Telegram bot. [Gswarm](https://gswarm.dev/docs)
+* and claim your **GSWARM** Role by join [discord](https://discord.gg/gensyn)
 
 ## NOTES 
-to run GSwarm, you need an EOA address.
-Find your EOA address by logging into the Gensyn [dashboard](dashboard.gensyn.ai).
-Every 3 hours, you will get 3 participations.
-So if you don’t get any updates from Telegram after more than 3 hours, you should check your node.
+* To run GSwarm, you need an EOA address.
+* Find your EOA address by logging into the Gensyn [dashboard](dashboard.gensyn.ai).
+* Every 3 hours, you will get 3 participations.
+* So if you don’t get any updates from Telegram after more than 3 hours, you should check your node.
 
 
 
