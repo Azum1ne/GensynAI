@@ -43,9 +43,9 @@ chmod +x installer.sh
  * Wait until the installation finishes.
 
  * If you are running a new node, you can only back up your swarm.pem file once the node is running by connecting to Jupyter Lab and locating your swarm.pem file in the **rl-swarm** directory.
- * If you already have an old swarm.pem file:
-  * Connect to Jupyter Lab.
-  * Drag & drop your old **swarm.pem** into the **rl-swarm** directory.
+ * `If you already have an old swarm.pem file`:
+   * Connect to Jupyter Lab.
+   * Drag & drop your old **swarm.pem** into the **rl-swarm** directory.
 
 ##3. Run RL-SWARM in a Screen Session
 ```bash
