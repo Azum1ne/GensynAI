@@ -90,7 +90,7 @@ cloudflared tunnel --url http://localhost:3000
 screen -r swarm
 ```
 ## 5. Prompts During Setup
-* You may see prompts like:
+# You may see prompts like:
 **`Would you like to push models you train in the RL swarm to the Hugging Face Hub? [y/N] : (PRESS N)`**
 **`Enter the name of the model you want to use in huggingface repo/name format, or press [Enter] to use the default model. : (Press Enter)`**
 * press N for HuggingFace and Press Enter to use the default model.
