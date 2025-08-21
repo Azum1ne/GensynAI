@@ -61,6 +61,12 @@ python3 -m venv .venv
 . .venv/bin/activate
 ```
 ```bash
+pip install --force-reinstall transformers==4.51.3 trl==0.19.1
+```
+```bash
+pip freeze
+```
+```bash
 ./run_rl_swarm.sh
 ```
 
@@ -74,6 +80,7 @@ cloudflared tunnel --url http://localhost:3000
 * You will see a URL like: **https://xxx.xxxx.xxxxx.trycloudflare.com**
 * Copy & paste the URL into your browser.
 * Login using your email.
+<img width="842" height="432" alt="Screenshot 2025-08-21 105617" src="https://github.com/user-attachments/assets/7645a3f2-072f-41ad-b3c7-12de8f800c36" />
 * Once logged in, press **CTRL+C** to stop cloudflared.
 * Re-attach to your screen session:
 
