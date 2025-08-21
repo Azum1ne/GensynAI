@@ -9,15 +9,14 @@ It is optimized for **RTX 3090/4090** instances.
 
 ## 1. Prepare Your Quickpod Environment
  Sign up or log in at [Quickpod.io](https://quickpod.io).
- Go to **Templates**.
- Search for **"Jupyter Lab CUDA 12.6"**.
+  * Go to **Templates**.
+  * Search for **"Jupyter Lab CUDA 12.6"**.
 (This template makes it easy to back up your `swarm.pem` file or import your old one if you have run Gensyn before.)
  Clone the template 
----
-<img width="600" height="792" alt="Screenshot 2025-08-21 092727" src="https://github.com/user-attachments/assets/8a500c13-9d47-4267-bf45-47b36c3e4fd8" />
----
 
-and add the following options under **Docker Options**
+<img width="600" height="792" alt="Screenshot 2025-08-21 092727" src="https://github.com/user-attachments/assets/8a500c13-9d47-4267-bf45-47b36c3e4fd8" />
+
+ * and add the following options under **Docker Options**
 
 ```bash
    --shm-size=16g --ulimit nofile=1048576:1048576 --ulimit nproc=65535:65535 --ulimit memlock=-1 --ulimit stack=67108864
